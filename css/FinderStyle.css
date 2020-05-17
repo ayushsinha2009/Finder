@@ -1,0 +1,145 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+}
+.logo {
+    -spacing:15px;
+margin-top:250px;
+}
+.logo span {
+    text-shadow:0px 0px 20px white;
+    font-size:80px;
+}
+.logo1 {
+   
+}
+.logo1 span{
+    text-shadow:0px 0px 30px white;
+    font-size:30px;
+
+    background-color:blue;
+    color:white;
+
+}
+.ch1 {color:#892727;
+font-weight:bold;
+font-family:Engravers MT;
+padding:8px;
+}
+.ch2 {
+font-family:Engravers MT;
+font-weight:bold;
+padding:8px;
+color:yellow;}
+.ch3 {font-weight:bold;
+      padding:8px;
+font-family:Engravers MT;
+color:#14758f;
+}
+.ch4 {font-weight:bold;
+      padding:8px;
+font-family:Engravers MT;
+color:#dda215;
+}
+.ch5 {font-weight:bold;
+      padding:8px;
+font-family:Engravers MT;
+color:#26aa12;
+}
+.ch6 {font-weight:bold;
+font-family:Engravers MT;
+color:black;
+padding:8px;
+}
+#box {
+    width:100%;
+    position:absolute;
+   top:0px;
+    left:0px;
+    z-index:999;
+}
+#icons {
+    width:100%;
+    height:170px;
+    background:rgba(0,0,0,0.4);
+}
+    #icons ul {
+        margin:0px auto;
+        padding:0px;
+        width:100%;
+    
+    }
+        #icons ul li {
+            padding:20px;
+            text-align:center;
+            margin:50px;
+            color:white;
+            box-shadow:0px 0px 15px white;
+            display:inline-block;  
+            cursor:pointer; 
+
+        }
+            #icons ul li i {
+                font-size:50px;
+               
+            }
+            #icons ul li:hover i {
+                color:red;
+
+            }
+            #icons ul li b.text {
+                visibility:hidden;
+            }
+            #icons ul li:hover b.text {
+                visibility:visible;
+            }
+#opener {
+    width:100%;
+    height:30px;
+    transition:all 0.5s ease;
+    cursor:pointer;
+}
+    #opener:hover {
+        background-color:red;
+    }
+
+.searchbox {
+    padding:20px;
+    background:white;
+    width:100%;
+    text-align:left;
+    margin:10px auto;
+}
+    .searchbox:hover 
+    {
+        box-shadow:0px 0px 20px white;
+    }
+    .searchbox .title {
+        font-family:Cambria;
+        font-size:25px;
+        font-weight:bold;
+    text-align:left;
+    }
+    .searchbox .link {
+        font-family:Cambria;
+        font-size:18px;
+        color:blue;
+    text-align:left;
+    }
+    .searchbox .desc {
+        font-family:Cambria;
+        font-size:21px;
+        color:#666;
+    text-align:left;
+    }
+
+.searchleft {
+    width:70%;
+    float:left;
+}
+.searchright {
+    width:30%;
+    float:right;
+}
+
+

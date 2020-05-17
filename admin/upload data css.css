@@ -1,0 +1,15 @@
+﻿#TextBox1 {
+border-radius:5px;
+}
+#dashboard {
+    margin-left: 120px;
+    border-radius:9px;
+    
+}
+th {
+color:maroon;
+}
+Button1:hover {
+background-color:black;
+color:red;
+}
